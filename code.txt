@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Agency Aktobe</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+            color: #333;
+        }
+
+        header p {
+            margin: 0;
+            font-size: 14px;
+            color: #777;
+        }
+
+        nav {
+            margin-top: 10px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .banner {
+            position: relative;
+            width: 100%;
+            height: 300px;
+            background: #ccc url('your-banner-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .banner-text {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .banner h2 {
+            font-size: 32px;
+            margin: 0;
+        }
+
+        .banner p {
+            font-size: 18px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .catalog {
+            text-align: center;
+        }
+
+        .catalog h2 {
+            font-size: 28px;
+        }
+
+        .catalog-item {
+            display: inline-block;
+            width: 30%;
+            margin: 20px;
+            vertical-align: top;
+        }
+
+        .catalog-item img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .catalog-item h3 {
+            font-size: 22px;
+        }
+
+        .catalog-item p {
+            font-size: 16px;
+        }
+
+        .catalog-item button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .catalog-item button:hover {
+            background-color: #555;
+        }
+
+        .contact-form {
+            background: #eee url('your-contact-form-background.jpg') no-repeat center center/cover;
+            padding: 40px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .contact-form h2 {
+            font-size: 24px;
+        }
+
+        .contact-form p {
+            font-size: 16px;
+        }
+
+        .contact-form form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .contact-form label {
+            display: block;
+            margin: 10px 0 5px;
+            font-size: 14px;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form button:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tourist Agency Aktobe</h1>
+        <p>ВАШ ТУРИСТИЧЕСКИЙ ЭКСПРЕСС</p>
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#about">О нас</a>
+            <a href="#services">Услуги</a>
+            <a href="#reviews">Отзывы</a>
+            <a href="#contact">Связаться с нами</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <img src="your-banner-image.jpg" alt="Баннер">
+        <div class="banner-text">
+            <h2>Популярные туры</h2>
+            <p>Лучшая турфирма в Актобе! Путешествуйте с нами по самым привлекательным ценам. Скидки до 50% на туры каждую пятницу! Уникальные маршруты и экскурсии. Постоянные обновления предложений. С нами путешествовать легко и приятно!</p>
+        </div>
+    </div>
+
+    <main>
+        <section id="services" class="catalog">
+            <h2>Наши услуги</h2>
+            <div class="catalog-item">
+                <img src="tour-image.jpg" alt="Групповые туры">
+                <h3>Групповые туры</h3>
+                <p>Насладитесь организованными поездками с нашими опытными гидами.</p>
+                <p>Цена: от 10000 тг.</p>
+                <button>Заказать тур</button>
+            </div>
+            <div class="catalog-item">
+                <img src="tour-image.jpg" alt="Индивидуальные туры">
+                <h3>Индивидуальные туры</h3>
+                <p>Персонализированные маршруты для вас и вашей компании.</p>
+                <p>Цена: от 20000 тг.</p>
+                <button>Заказать тур</button>
+            </div>
+            <div class="catalog-item">
+                <img src="tour-image.jpg" alt="Экскурсии">
+                <h3>Экскурсии</h3>
+                <p>Узнайте больше о местных достопримечательностях.</p>
+                <p>Цена: от 5000 тг.</p>
+                <button>Заказать экскурсию</button>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-form">
+            <h2>Форма обратной связи (contact form)</h2>
+            <p>Есть вопросы? Напишите нам! Наш менеджер ответит вам в ближайшее время.</p>
+            <form>
+                <label for="name">Введите имя:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Введите email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Сообщение:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Tourist Agency Aktobe</p>
+        <p>ООО «Tourist Agency Aktobe», 123456, г.Актобе, ул. Центральная 1, офис 1</p>
+        <p>ИНН 1234567890 ОГРН 123456789012</p>
+        <p><a href="#">Политика конфиденциальности</a></p>
+        <p>8 800 333 22 33</p>
+        <p>Звонок по Казахстану бесплатный</p>
+    </footer>
+</body>
+</html>
